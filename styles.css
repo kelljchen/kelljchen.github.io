@@ -1,0 +1,47 @@
+body {
+  /* background-color: #ECECEC; */
+}
+
+.home {
+   text-decoration: none;
+   float: left;
+   
+}
+
+.navbar ol {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: white;
+}
+
+.navbar li {
+   float: right;
+}
+
+.navbar li a{
+   color: #000;
+   text-decoration: none;
+   display: block;
+   padding: 8px;
+}
+
+.navbar li a:hover {
+   color: #ceecff;
+}
+
+
+
+p {
+   border: 1px solid powderblue;
+}
+
+img {
+   border: 5px solid #E6E6FA;
+   margin: 20px;
+}
+
+#href.LIn {
+   target="_blank";	
+}
