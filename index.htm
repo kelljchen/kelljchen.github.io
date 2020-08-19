@@ -1,53 +1,89 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <title>Kelly Chen</title>
+        <meta name="author" content="Kelly Chen">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Kelly's Personal Website">
+        <meta name="keywords" content="ucla,kelly chen,data science,dance">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+        
 
-<div>
-<head>
-   <title>Kelly Chen</title>
-   <meta name="author" content="Kelly Chen">
-   <link rel="stylesheet" href="styles.css">
-   <meta charset="UTF-8">
-   <meta name="description" content="Kelly's Personal Website">
-   <meta name="keywords" content="ucla,kelly chen,data science,dance">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-   <!-- <base href="http -->
-</head>
+        <script type="text/javascript" src="../plugins.js"></script>
+        <script>
+            $('nav_links').onePageNav({         // #nav must be the id of your navigation
+                currentClass: 'current',
+                changeHash: false,
+                scrollSpeed: 250,          // change this parameter to adjust scrolling speed
+                scrollOffset: 30
+            });
+        </script>
+    </head>
 
-<body>
-   <div class="navbar">
-      <ol>
-       <li><a href="me.asp">About Me</a></li>
-       <li><a href="life.asp">Outside</a></li>
-       <li><a href="data.asp">Data</a></li>
-       <id="home"><a href="default.asp">Home</a></li>
-      </ol>
-   </div>
+    <body>
 
+        <header>
+            <!-- <img class="logo" src="images/logo.svg" alt="logo"> -->
+            <a class ="logo" href ="#">KJC</a>
+            <nav>
+                <ul id="nav_links">
+                        <li class="current"> <li><a class="nav" href="#about">About</a></li>
+                        <!-- <li><a href="#data_projects">Data and Coding</a></li>
+                        <li><a href="#offline">Offline</a></li> -->
+                        <li><a class="nav" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="Resume.pdf"><button>Resume</button></a>
+        </header>
+        <hr>
+        <div class="about" >
+            <div id="left_image">
+                <div class="centered">
+                    <img id="headshot" src="images/kjcheadshot.jpg" width="300" height="300" margin="15px"
+                                       style="float:left" alt="Kelly Chen headshot">
+                </div>
+            </div>
+            <div id="right_text">
+                    <p id="greeting">Hey there ✌️</p>
+                    <br>
+                    <p id="bio">
+                    My name is Kelly! I’m a third-year Statistics student at UCLA with a deep passion for data and its potential for storytelling and decision-making.
+                    <br><br>
+                    I’m a data journalist for <a id="link" href="https://stack.dailybruin.com/"><span class="text">The Stack at the Daily Bruin</span></a>
+                    , data analyst for the UCLA Center for Health Policy Research, and data fellow at Bluebonnet Data.
+                    
+                    </p>
+                    <br>
+                    
+                    <p id="bio">Currently recruiting for data science/data analyst internships for summer 2021. Feel free to reach out!</p>
+            </div>
+        </div>
+        <!-- <div class="data_projects">
+            <p>Stuff about projects</p>
+        </div> -->
 
-<p>Paragraph <i>woo hoo</i> lalala</p>
+        <!-- <div id="offline">
+            <p>Not technical experience hobbies</p>
+        </div> -->
 
-<img src="images/kjcheadshot.jpg" alt="Kelly Chen" style="width:150px">
+    </body>
+    <hr>
+    <footer>
+        <p id="contact">Kelly Chen @ 2020 All Rights Reserved</p>
+        <div class="socials">
+            <!-- Add icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<br />
+            <!-- EDIT: Social Links. Replace # with your URL for each -->
+            <a href="https://github.com/kelljchen"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kelljchen/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/kelljchen"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/kelljchen/"><i class="fa fa-instagram"></i></a>
+            <a href="mailto:kelljchen@gmail.com"><i class="fa fa-envelope"></i></a>
+        </div>
 
-<button>Resume</button>
-
-<ol style="background-color:LightSeaGreen;">
-   <li>Dance</li>
-   <li>Professional napper</li>
-   <li>Student</li>
-</ol>
-
-
-<!-- this is progress that is what this iss-->
-<p>A quote from her friends:</p>
-<q>Wow what a total queen! - KJC</q>
-<blockquote>"She's a mess" - Noodle</blockquote>
-
-<a href="https://www.linkedin.com/in/kelly-chen-986a13153/" id="LIn">LinkedIn</a>
-
-<a href="page2.html">Contact</a>
-
-</body>
-</html>
+    </footer>
